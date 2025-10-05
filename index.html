@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ayush Rewatkar - Portfolio</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+    <nav class="nav">
+        <div class="logo">AR</div>
+        <ul class="nav-menu">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#qualifications" class="nav-link">Qualifications</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#certifications" class="nav-link">Certifications</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div style="display:flex;gap:1rem;align-items:center;">
+            <button class="theme-toggle" id="themeToggle"><i class="fas fa-moon"></i></button>
+            <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+        </div>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <h1 class="hero-title">Ayush Rewatkar</h1>
+            <h2 class="hero-subtitle">Machine Learning Enthusiast | Computer Engineering Student</h2>
+            <p class="hero-tagline">Transforming Data into Intelligent Solutions</p>
+            <a href="https://drive.google.com/file/d/1XMXx6kjxbA2To-Md6f3BSyAlEuluz69W/view?usp=sharing" class="btn">View Resume</a>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section about">
+    <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div>
+                <p>I am currently in my final year of B.Tech in Computer Engineering, with a strong interest in <strong>machine learning</strong> and <strong>cloud computing</strong>. I have experience in <strong>Python</strong>, which enables me to solve problems effectively and develop innovative solutions.</p>
+                <p>Along with my technical expertise, I possess strong communication skills, allowing me to work well both independently and as part of a team. I am always eager to learn, grow, and contribute to the ever-evolving tech world.</p>
+            </div>
+            <div class="profile-img">
+                    <img src="Ayush Rewatkar Passport.jpg" alt="Ayush Rewatkar" class="profile-photo"/>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- QUALIFICATIONS -->
+<section id="qualifications" class="section qualifications">
+    <div class="container">
+        <h2 class="section-title">Qualifications</h2>
+        <div class="qualifications-grid">
+            <div class="qualification-card">
+                <h3>10th (Secondary School)</h3>
+                <p>Board: Maharashtra State Board</p>
+                <p class="score">Score: 89.60%</p>
+                <p>Year: 2020</p>
+            </div>
+            <div class="qualification-card">
+                <h3>12th (Higher Secondary)</h3>
+                <p>Board: Maharashtra State Board</p>
+                <p class="score">Score: 89.00%</p>
+                <p>Year: 2022</p>
+            </div>
+            <div class="qualification-card">
+                <h3>B.Tech - Computer Engineering</h3>
+                <p>Institute: MIT Academy of Engineering Alandi</p>
+                <p class="score">CGPA: 8.79 / 10</p>
+                <p>Year: Final Year (Pursuing)</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+    <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-item"><div class="skill-name"><span>Artificial Intelligence</span><span>85%</span></div><div class="skill-bar"><div class="skill-progress" data-width="85%"></div></div></div>
+            <div class="skill-item"><div class="skill-name"><span>Machine Learning</span><span>90%</span></div><div class="skill-bar"><div class="skill-progress" data-width="90%"></div></div></div>
+            <div class="skill-item"><div class="skill-name"><span>Python</span><span>95%</span></div><div class="skill-bar"><div class="skill-progress" data-width="95%"></div></div></div>
+            <div class="skill-item"><div class="skill-name"><span>Cloud Computing</span><span>85%</span></div><div class="skill-bar"><div class="skill-progress" data-width="85%"></div></div></div>
+            <div class="skill-item"><div class="skill-name"><span>Teamwork</span><span>90%</span></div><div class="skill-bar"><div class="skill-progress" data-width="90%"></div></div></div>
+            <div class="skill-item"><div class="skill-name"><span>Team Leadership</span><span>85%</span></div><div class="skill-bar"><div class="skill-progress" data-width="85%"></div></div></div>
+            <div class="skill-item"><div class="skill-name"><span>Presentation Skills</span><span>80%</span></div><div class="skill-bar"><div class="skill-progress" data-width="80%"></div></div></div>
+            <div class="skill-item"><div class="skill-name"><span>Git</span><span>85%</span></div><div class="skill-bar"><div class="skill-progress" data-width="85%"></div></div></div>
+            <div class="skill-item"><div class="skill-name"><span>GitHub</span><span>85%</span></div><div class="skill-bar"><div class="skill-progress" data-width="85%"></div></div></div>
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section projects">
+    <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image"><i class="fas fa-user-graduate"></i></div>
+                <div class="project-content">
+                    <h3>🎓 Student Performance System</h3>
+                    <p>A Flask-based ML web application that predicts student exam scores based on study habits, attendance, previous scores, and motivation level.</p>
+                    <div class="tech-stack"><span>Python</span><span>Flask</span><span>Scikit-learn</span><span>Pandas</span></div>
+                    <a href="https://github.com/AyushR-Tech/Student-Performace-System" target="_blank" class="btn">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image"><i class="fas fa-parking"></i></div>
+                <div class="project-content">
+                    <h3>🚗 Parking Detection System 🅿️</h3>
+                    <p>Computer vision–based system that detects and monitors parking spaces in real-time using OpenCV and deep learning models.</p>
+                    <div class="tech-stack"><span>Python</span><span>OpenCV</span><span>YOLO</span><span>TensorFlow</span></div>
+                    <a href="https://github.com/AyushR-Tech/Parking-Detection-System" target="_blank" class="btn">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image"><i class="fas fa-video"></i></div>
+                <div class="project-content">
+                    <h3>🕵️‍♂️ Deepfake Video Detection System</h3>
+                    <p>AI-powered system to detect deepfake videos using deep learning and image forensics techniques for media authenticity verification.</p>
+                    <div class="tech-stack"><span>Python</span><span>TensorFlow</span><span>Keras</span><span>OpenCV</span></div>
+                    <a href="https://github.com/AyushR-Tech/Deepfake-Video-Detection" target="_blank" class="btn">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image"><i class="fas fa-newspaper"></i></div>
+                <div class="project-content">
+                    <h3>📰 Fake News Detection System</h3>
+                    <p>Machine learning–based application to identify and classify fake news articles using NLP and classification algorithms.</p>
+                    <div class="tech-stack"><span>Python</span><span>NLP</span><span>Scikit-learn</span><span>Pandas</span></div>
+                    <a href="https://github.com/AyushR-Tech/Fake-News-Detection" target="_blank" class="btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications" class="section certifications">
+    <div class="container">
+        <h2 class="section-title">Certifications</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image"><i class="fas fa-certificate"></i></div>
+                <div class="project-content">
+                    <h3>Introduction to Machine Learning </h3>
+                    <p>Issued by NPTEL - Introduction to Machine Learning concepts.</p>
+                    <div class="tech-stack"><span>NPTEL</span><span>Machine Learning</span></div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image"><i class="fas fa-certificate"></i></div>
+                <div class="project-content">
+                    <h3>Cloud Computing</h3>
+                    <p>Issued by NPTEL - Cloud Computing concepts and applications.</p>
+                    <div class="tech-stack"><span>NPTEL</span><span>Cloud Computing</span></div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image"><i class="fas fa-certificate"></i></div>
+                <div class="project-content">
+                    <h3>Cloud Architecting </h3>
+                    <p>Issued by AWS Academy - Hands-on training in designing and deploying scalable cloud solutions.</p>
+                    <div class="tech-stack"><span>AWS Academy</span><span>Cloud Architecting</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+    <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-content">
+            <div>
+                <p class="contact-intro">
+                    Feel free to contact us? submit your queries here and we will get back to you as soon as possible.
+                </p>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+91 88 3043 7039</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>ayushrewatkar011@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Nagpur , Maharashtra 442211</span>
+                </div>
+            </div>
+            <form class="contact-form">
+                <h2 class="contact-form-title">Send Us Message</h2>
+                <input type="text" placeholder="Name" required />
+                <input type="email" placeholder="Email" required />
+                <textarea placeholder="Phone" required></textarea>
+                <button class="btn" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="social-links">
+        <a href="https://www.linkedin.com/in/ayush-rewatkar-246b8826b" title="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i><span class="sr-only">LinkedIn</span></a>
+        <a href="https://github.com/AyushR-Tech" title="GitHub"><i class="fab fa-github" aria-hidden="true"></i><span class="sr-only">GitHub</span></a>
+        <a href="https://profile.indeed.com/p/ayushr-rzc61tp" title="Indeed"><i class="fas fa-briefcase" aria-hidden="true"></i><span class="sr-only">Indeed</span></a>
+        <a href="https://www.credly.com/users/ayush-rewatkar" title="Credly"><i class="fas fa-certificate" aria-hidden="true"></i><span class="sr-only">Credly</span></a>
+    </div>
+    <p>&copy; 2025 Ayush Rewatkar</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
