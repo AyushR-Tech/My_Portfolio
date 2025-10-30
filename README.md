@@ -81,7 +81,7 @@ If you’d like to improve the design or add new features, feel free to fork thi
 
 **Ayush Rewatkar**
 MIT Academy of Engineering, Pune
-🌐 [Portfolio Live Link] *(https://ayushr-tech.github.io/My_Portfolio/)*
+🌐 https://ayushr-tech.github.io/My_Portfolio/
 
 ---
 
