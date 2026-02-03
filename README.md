@@ -36,30 +36,6 @@ I enjoy building impactful projects using modern technologies, exploring AI/ML, 
 
 ---
 
-## ⚙️ Setup Instructions
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/AyushR-Tech/Portfolio.git
-   cd Portfolio
-````
-
-2. **Install dependencies** (if it’s a React/Tailwind project)
-
-   ```bash
-   npm install
-   ```
-
-3. **Run the project locally**
-
-   ```bash
-   npm start
-   ```
-
-   or if it’s a static version, simply open `index.html` in your browser.
-
----
-
 ## 📸 Sections Included
 
 * 🏠 Home – Introduction and tagline
